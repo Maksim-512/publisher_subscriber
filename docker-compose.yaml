@@ -1,0 +1,10 @@
+services:
+  pubsub:
+    build: .
+    ports:
+      - "50051:50051"
+    volumes:
+      - ./config:/app/config
+    environment:
+      CONFIG_PATH: /config/config.yaml
+    restart: unless-stopped
