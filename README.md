@@ -37,7 +37,7 @@ docker-compose up --build -d
 
 ### Проект будет доступен по следующему адресу:
 
-- gRPC:       http://localhost:50001
+- gRPC:       http://localhost:50051
 
 
 ### Тестирование
